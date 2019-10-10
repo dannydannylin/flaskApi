@@ -26,7 +26,7 @@ class PrintHelloWorld(Resource):
             'message': 'Hello Wrold!'
         }, 200
 
-api.add_resource(PrintHelloWorld, "/print_hello_world/")
+api.add_resource(PrintHelloWorld, "/print_hello_world")
 api.add_resource(UserModel, "/user/<string:name>")
 
 if __name__ == "__main__":

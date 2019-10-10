@@ -1,2 +1,4 @@
 Flask
 gunicorn
+Flask-restful
+Flask-sqlalchemy
