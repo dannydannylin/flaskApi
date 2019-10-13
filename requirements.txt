@@ -1,4 +1,5 @@
 Flask
 gunicorn
+json
 Flask-restful
 Flask-sqlalchemy
